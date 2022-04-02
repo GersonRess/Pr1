@@ -1,0 +1,70 @@
+img{width: 350px;
+height: 350px;
+}
+
+body{
+   background-color:khaki;
+}
+
+
+div h1 p {
+    margin: 0px;
+    padding: 0px;
+}
+
+.bgw{
+    background-color: brown;
+}
+
+.fnt{
+    color: azure;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+.tp{
+
+height: 3%;
+width: 3%;
+
+}
+
+.pt{
+
+    font-family: 'Franklin Gothic Medium';
+
+}
+
+.margen{
+    margin: 100;
+    padding: 100;
+
+}
+
+.lp{
+
+
+    font-size: 170%;
+}
+
+.lol{
+
+
+    border-style:outset;
+    background-color: #f2dfaa;
+    
+}
+.bgl{
+
+
+    border-style:outset;
+    background-color: #db976a;
+    
+}
+
+@media (min-width: 1025px) {
+    .h-custom {
+      height: 100vh !important;
+    }
+  }
