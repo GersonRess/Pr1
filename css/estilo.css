@@ -65,8 +65,16 @@ width: 3%;
     }
   }
 
+  #myCarousel img {
 
-  .carousel {
-    width:640px;
-    height:360px;
-  }
+    width: auto;
+    
+    height: 225px;
+    
+    max-height: 225px;
+    
+    }
+
+img{
+    width: 300px ;
+}
