@@ -68,3 +68,9 @@ width: 3%;
       height: 100vh !important;
     }
   }
+
+
+  .carousel {
+    width:640px;
+    height:360px;
+  }
