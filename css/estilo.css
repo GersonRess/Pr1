@@ -1,5 +1,9 @@
 body{
    background-color:khaki;
+   background-image: url(../img/materiald.jpg);
+   background-blend-mode: soft-light;
+   background-size: 100%;
+   backg
 }
 
 
