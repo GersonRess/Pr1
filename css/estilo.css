@@ -1,8 +1,8 @@
-body{
-   background-color:khaki;
-   background-image: url(../img/materiald.jpg);
-   background-blend-mode: soft-light;
-   background-size: 100%;
+body {
+    background-color: khaki;
+    background-image: url(../img/materiald.jpg);
+    background-blend-mode: soft-light;
+    background-size: 100%;
 }
 
 
@@ -11,84 +11,97 @@ div h1 p {
     padding: 0px;
 }
 
-.bgw{
+.bgw {
     background-color: brown;
 }
 
-.fnt{
+.fnt {
     color: azure;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 
 
-.tp{
+.tp {
 
-height: 3%;
-width: 3%;
+    height: 3%;
+    width: 3%;
 
 }
 
-.pt{
+.pt {
 
     font-family: 'Franklin Gothic Medium';
 
 }
 
-.margen{
-    margin: 100;
-    padding: 100;
+.margen {
+    margin: 100px;
+    padding: 100pxs;
 
 }
 
-.lp{
+.lp {
 
 
     font-size: 170%;
 }
 
 
-.lol{
+.lol {
 
 
-    border-style:outset;
+    border-style: outset;
     background-color: #f2dfaa;
-    
+
 }
-.bgl{
+
+.bgl {
 
 
-    border-style:outset;
+    border-style: outset;
     background-color: #db976a;
-    
+
 }
 
 @media (min-width: 1025px) {
     .h-custom {
-      height: 100vh !important;
+        height: 100vh !important;
     }
-    
-  }
-  @media only screen and (min-width: 1200px) {
-      p{
-          font-size: 110%;
-      }
-  } 
 
-  #myCarousel img {
+}
+
+@media only screen and (min-width: 1200px) {
+    p {
+        font-size: 110%;
+    }
+}
+
+#myCarousel img {
 
     width: auto;
-    
+
     height: 225px;
-    
+
     max-height: 225px;
-    
-    }
 
-
-img{
-    width: 300px ;
 }
-.btn{
-    background-color: rgb(70, 7, 7);
+
+
+img {
+    width: 300px;
+}
+
+.btn {
+    background-color: rgb(94, 14, 14);
+}
+
+a {
+    color: darkred;
+}
+
+.dropdown-item:focus,
+.dropdown-item:hover {
+    background-color: darkred;
+    color: azure;
 }
