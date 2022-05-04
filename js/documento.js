@@ -1,7 +1,6 @@
 (function () {
     'use strict'
 
-    // Fetch all the forms we want to apply custom Bootstrap validation styles to
     var forms = document.querySelectorAll('.needs-validation')
 
     // Loop over them and prevent submission
@@ -29,7 +28,6 @@ $("#boton").click(function () {
 
 
 $("#API").click(function () {
-    //buscar la info en url y almacenar todo en data
     $.get("https://api.imgflip.com/get_memes",
         function (data) {
             $.each(data.data.memes, function (i, item) {
@@ -45,4 +43,3 @@ $("#API").click(function () {
 });
 
 $config['image.settings']['allow_insecure_derivatives'] = TRUE;
-

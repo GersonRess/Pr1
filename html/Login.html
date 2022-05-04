@@ -20,68 +20,57 @@
   </style>
 </head>
 
-<body onload="activar()">
-  <br><br><br><br>
-  <div class="row">
-    <div class="col-md-3 col-sm-2 col-lg-4"></div>
-    <div class="col-md-6 col-sm-8 col-lg-4 bgw">
-      <form>
-        <!-- Email input -->
-        <br>
-        <br>
-        <div class="container">
-          <div class="form-outline mb-4">
-            <input type="email" id="form2Example1" class="form-control" onkeyup="vEmail()" />
-            <label class="form-label fnt" for="form2Example1">Dirección de correo</label>
-          </div>
+<body>
+  <section class="vh-100 gradient-custom">
+    <div class="container py-5 h-100">
+      <div class="row d-flex justify-content-center align-items-center h-100">
+        <div class="col-12 col-md-8 col-lg-6 col-xl-5">
+          <div class="card bgw fnt text-white" style="border-radius: 1rem;">
+            <div class="card-body p-5 text-center">
 
-          <!-- Password input -->
-          <div class="form-outline mb-4">
-            <input type="password" id="form2Example2" class="form-control" onkeyup="vContra()" />
-            <label class="form-label fnt" for="form2Example2">Contraseña</label>
-          </div>
+              <div class="mb-md-5 mt-md-4 pb-5">
+                <form class="g-3" action="../index.html">
+                  <h2 class="fw-bold mb-2 text-uppercase">Ingresar</h2>
+                  <p class="text-white-50 mb-5">Por favor ingresa tu usuario y contraseña</p>
 
-          <!-- 2 column grid layout for inline styling -->
-          <div class="row mb-4">
-            <div class="col d-flex justify-content-center">
-              <!-- Checkbox -->
-              <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="form2Example31" checked />
-                <label class="form-check-label fnt" for="form2Example31"> Soy humano </label>
+                  <div class="form-outline form-white mb-4">
+                    <input type="text" id="typeUserX" minlength="6" maxlength="20"
+                      class="form-control form-control-lg" required />
+                    <label class="form-label" for="typeUserX">Usuario</label>
+                  </div>
+
+                  <div class="form-outline form-white mb-4">
+                    <input type="password" id="typePasswordX" minlength="6" maxlength="30"
+                      class="form-control form-control-lg" required />
+                    <label class="form-label" for="typePasswordX">Contraseña</label>
+                  </div>
+
+                  <p class="small mb-5 pb-lg-2"><a class="text-white-50" href="#!">¿Olvidaste tu contraseña?</a></p>
+
+                  <button class="btn btn-outline-light btn-lg px-5" type="submit">Ingresar</button>
+
               </div>
+
+              <div>
+                <p class="mb-0">¿No estás registrado? <a href="Register.html"
+                    class="text-white-50 fw-bold">Registrarse</a>
+                </p>
+              </div>
+              </form>
             </div>
-
-            <div class="col">
-              <!-- Simple link -->
-              <a class="fnt" href="#!">Olvidaste tu contraseña?</a>
-            </div>
-          </div>
-
-          <!-- Submit button -->
-          <a href=""><button type="button" id="btn1" class="btn btn-primary btn-block btn-outline-danger mb-4 fnt"
-              onkeyup="keyup">Iniciar sesión</button>
-          </a>
-          <a href="javascript:history.back()"><button type="button"
-              class="btn btn-primary btn-outline-danger btn-block mb-4 fnt" onkeyup="keyup">Volver</button>
-
-          </a>
-          <!-- Register buttons -->
-          <div class="text-center">
-            <p class="fnt">No estás registrado? <a class="fnt" href="Register.html">Registrate</a></p>
-
           </div>
         </div>
-      </form>
+      </div>
     </div>
-    <div class="col-md-3 col-sm-2 col-lg-4"></div>
-  </div>
+  </section>
+
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
     crossorigin="anonymous"></script>
 
   <script src="../js/documento.js"></script>
 </body>
-
 
 
 </html>
