@@ -33,7 +33,7 @@ $("#API").click(function () {
             $.each(data.data.memes, function (i, item) {
                 $("#tabla").append("<tr><td>" + item.id +
                     "</td><td>" + item.name +
-                    "</td><td><img src =" + item.url +
+                    "</td><td><img class='img-fluid' src =" + item.url +
                     "></td><td>" + item.width +
                     "</td><td>" + item.height +
                     "</td><td>" + item.box_count +
